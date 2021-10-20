@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    height: 800px;
+    background-color: hsl(0, 0%, 95%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content{
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 12%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Sedan{
+    background-color: #e28525;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.Suv{
+    background-color: #016972;
+}
+
+.Luxury{
+    background-color: #00403f;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.Luxury, .Sedan, .Suv{
+    width: 350px;
+}
+
+.images, .titulo, .texto, button{
+    margin: 0px 0px 0px 50px;
+}
+
+.texto{
+    margin-bottom: 50px;
+    margin-top: 25px;
+}
+
+.images{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.button1, .button2, .button3{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    padding: 15px 50px;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: white;
+    cursor: pointer;
+    background-color: white;
+}
+
+.button1{
+    color: #e28525;
+}
+
+.button2{
+    color: #016972;
+}
+
+.button3{
+    color: #00403f;
+}
+
+.button1:hover, .button2:hover, .button3:hover{
+    background-color: transparent;
+    transition: 500ms;
+    color:white;
+}
+
+.buttontxt{
+    color: transparent
+}
+
+h1{
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 40px;
+}
+
+.txt{
+    word-wrap: break-word;
+    width: 250px;
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsl(0, 0%, 100%, 0.75);
+    line-height: 25px;
+}
+
+.txtw{
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsl(0, 0%, 100%, 0.75);
+    line-height: 25px;
+    color: rgba(15, 15, 15, 0.753);
+}
